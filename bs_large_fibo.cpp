@@ -49,7 +49,7 @@ int main()
         k = get(v,n);
         n -= v[k];
 
-        cout<<k<<","<<v[k]<<"  ";
+        cout<<"index:"<<k<<",Corresponding Number:"<<v[k]<<endl;
     }
 
     return 0;
